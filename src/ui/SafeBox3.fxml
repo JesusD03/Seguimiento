@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="248.0" prefWidth="374.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="labTitle" layoutX="114.0" layoutY="14.0" text="CAJA FUERTE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnChange" layoutX="56.0" layoutY="199.0" mnemonicParsing="false" onAction="#switchWindow" prefHeight="36.0" prefWidth="120.0" text="CAMBIAR CLAVE" />
+      <Label layoutX="112.0" layoutY="50.0" text="Digite la combinacion actual" />
+      <Button fx:id="btnChange1" layoutX="206.0" layoutY="199.0" mnemonicParsing="false" onAction="#switchWindow" prefHeight="36.0" prefWidth="113.0" text="CERRAR CAJA" />
+      <TextArea layoutX="65.0" layoutY="67.0" prefHeight="25.0" prefWidth="2.0" />
+      <TextArea layoutX="269.0" layoutY="67.0" prefHeight="25.0" prefWidth="2.0" />
+      <TextArea layoutX="228.0" layoutY="67.0" prefHeight="25.0" prefWidth="2.0" />
+      <TextArea layoutX="188.0" layoutY="67.0" prefHeight="25.0" prefWidth="2.0" />
+      <TextArea layoutX="147.0" layoutY="67.0" prefHeight="25.0" prefWidth="2.0" />
+      <TextArea layoutX="106.0" layoutY="67.0" prefHeight="25.0" prefWidth="2.0" />
+      <TextArea layoutX="66.0" layoutY="141.0" prefHeight="25.0" prefWidth="2.0" />
+      <TextArea layoutX="270.0" layoutY="141.0" prefHeight="25.0" prefWidth="2.0" />
+      <TextArea layoutX="229.0" layoutY="141.0" prefHeight="25.0" prefWidth="2.0" />
+      <TextArea layoutX="189.0" layoutY="141.0" prefHeight="25.0" prefWidth="2.0" />
+      <TextArea layoutX="148.0" layoutY="141.0" prefHeight="25.0" prefWidth="2.0" />
+      <TextArea layoutX="107.0" layoutY="141.0" prefHeight="25.0" prefWidth="2.0" />
+      <Label layoutX="110.0" layoutY="116.0" text="Digite la NUEVA combinacion" />
+   </children>
+</Pane>
