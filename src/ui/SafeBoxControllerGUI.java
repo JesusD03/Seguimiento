@@ -33,6 +33,7 @@ public class SafeBoxControllerGUI {
     	mainStage.show();
     	
     	
+    	
     }
 
 	public Stage getMainStage() {
